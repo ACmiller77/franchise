@@ -1,0 +1,30 @@
+.hero {
+  background-image: url("‫img/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-cta {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cta-text {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-style: italic;
+  color: #FFFFFF;
+}
+
+.cta-box {
+  float: right;
+}
+
+.cta-box > a {
+  color: #FFFFFF;
+  font-style:normal;
+}
