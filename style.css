@@ -1,5 +1,9 @@
+#topper {
+  margin-right: 10%;
+}
+
 .hero {
-  background-image: url("‫img/hero.jpg");
+  background-image: url("‫images/hero.jpg");
   background-repeat: no-repeat;
   background-position: center;
   height: 400px;
@@ -26,5 +30,5 @@
 
 .cta-box > a {
   color: #FFFFFF;
-  font-style:normal;
+  font-style: normal;
 }
