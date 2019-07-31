@@ -35,8 +35,37 @@
   font-style: normal;
 }
 
-.btn-primary {
+.btn-go {
   float: right;
   background-color: #90C843;
   margin-left: 20px;
+  border-color: #90C843;
+  }
+
+  .book {
+    margin-top: 100px;
+  }
+
+  h1 {
+    font: Arial;
+    font-style: italic;
+  }
+
+  .text1 {
+    font-size: 1.3em;
+    color: black;
+  }
+
+  .btn-book {
+    text-transform: uppercase;
+    background-color: black;
+    border-color: black;
+  }
+
+  .btn-items {
+    text-transform: uppercase;
+    background-color: white;
+    text-decoration: underline;
+    color: black;
+    border-color: white;
   }
