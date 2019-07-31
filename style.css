@@ -1,3 +1,7 @@
+#topper {
+  float: right;
+}
+
 .hero {
   background-image: url("images/hero.jpg");
   background-repeat: no-repeat;
