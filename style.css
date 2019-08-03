@@ -1,6 +1,11 @@
 .navthing {
   position: absolute;
-  right: 0px; 
+  right: 50px;
+}
+
+.nav-item {
+  font-size: 1.3em;
+  font-weight: bold;
 }
 
 .p-2 > a {
