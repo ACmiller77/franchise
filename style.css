@@ -36,9 +36,17 @@
   color: #FFFFFF;
 }
 
+.cta-text > a {
+  color: #FFFFFF;
+}
+
 .cta-box > a {
   color: #FFFFFF;
   font-style: normal;
+}
+
+.cta-box > p {
+  display: inline;
 }
 
 .btn-go {
