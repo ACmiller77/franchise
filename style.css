@@ -1,7 +1,4 @@
-.navthing {
-  position: relative;
-  right: 50px;
-}
+/*nav*/
 
 .nav-item {
   font-size: 1.3em;
@@ -13,6 +10,8 @@
   color: black;
   font-weight: bold;
 }
+
+/*hero*/
 
 .hero {
   background-image: url("images/hero.jpg");
@@ -53,34 +52,63 @@
   border-color: #90C843;
   }
 
-  .book {
-    margin-top: 50px;
-  }
+/*book now*/
 
-  .book2 {
-    margin-top: 90px;
-  }
+.book {
+  margin-top: 50px;
+}
 
-  h1 {
-    font: Arial;
-    font-style: italic;
-  }
+.book2 {
+  margin-top: 90px;
+}
 
-  .text1 {
-    font-size: 1.3em;
-    color: black;
-  }
+h1 {
+  font-family: Arial, sans-serif;
+  font-color: black;
+  font-style: italic;
+  font-weight: bold;
+}
 
-  .btn-book {
-    text-transform: uppercase;
-    background-color: black;
-    border-color: black;
-  }
+.text1 {
+  font-size: 1.3em;
+  color: black;
+}
 
-  .btn-items {
-    text-transform: uppercase;
-    background-color: white;
-    text-decoration: underline;
-    color: black;
-    border-color: white;
-  }
+.btn-book {
+  text-transform: uppercase;
+  background-color: black;
+  border-color: black;
+}
+
+.btn-items {
+  text-transform: uppercase;
+  background-color: white;
+  text-decoration: underline;
+  color: black;
+  border-color: white;
+}
+
+/*Ready to service*/
+
+.ready {
+  background-color: #fafafa;
+}
+
+.ready-text {
+  text-align: center;
+}
+
+
+
+
+
+
+  /*Instagram*/
+
+  /*feedback*/
+
+  /*junk removal*/
+
+  /*why hire*/
+
+  /*footer*/
