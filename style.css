@@ -164,3 +164,51 @@ h1 {
   /*why hire*/
 
   /*footer*/
+
+.footer {
+  background-color: black;
+}
+
+.f-head {
+  text-align: center;
+}
+
+.f-head > h1 {
+  color: white;
+}
+
+.big {
+  position: relative;
+  text-align: center;
+}
+
+a.big-links {
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+.bottom-logo {
+text-align: center;
+}
+
+.bottom-logo > h2 {
+  color: white;
+  font-style: normal;
+}
+
+.last-call {
+  text-align: center;
+  color: white;
+
+}
+
+.row-last {
+text-align: center;
+}
+
+a.last-links {
+  display: inline-block;
+  color: white;
+}
