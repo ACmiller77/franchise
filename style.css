@@ -1,10 +1,14 @@
 /*nav*/
 
-.phone > a {
+.phone {
+  text-align: right;
+}
+
+a.phone-link {
   font-size: 1.5em;
   color: black;
   text-align: right;
-}
+  }
 
 .nav-item {
   font-size: 1.3em;
