@@ -93,6 +93,7 @@ h1 {
   font-color: black;
   font-style: italic;
   font-weight: bold;
+  font-size: 2.5em;
 }
 
 .text1 {
@@ -182,6 +183,12 @@ h1 {
   padding-bottom: 50px;
 }
 
+.items {
+  text-decoration: underline;
+  color: black;
+  padding-left: 10px;
+}
+
 
   /*why hire*/
 
@@ -209,6 +216,8 @@ a.big-links {
   font-family: arial, sans-serif;
   font-size: 1.5em;
   color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .bottom-logo {
@@ -233,4 +242,6 @@ text-align: center;
 a.last-links {
   display: inline-block;
   color: white;
+  padding-right: 15px;
+  padding-left: 15px;
 }
