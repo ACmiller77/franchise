@@ -1,4 +1,5 @@
 /*nav*/
+
 .nav {
   background-color: #fafafa;
 }
@@ -35,11 +36,6 @@ a.phone-link {
   font-size: 1em;
   font-weight: bold;
   text-align: right;
-}
-
-.p-2 > a {
-  color: black;
-  font-weight: bold;
 }
 
 /*hero*/
@@ -180,8 +176,6 @@ h1 {
   font-size: 2.2em;
 }
 
-
-
   /*junk removal*/
 
 .junks {
@@ -247,7 +241,6 @@ text-align: center;
 .last-call {
   text-align: center;
   color: white;
-
 }
 
 .row-last {
