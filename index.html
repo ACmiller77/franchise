@@ -13,7 +13,7 @@
  </head>
  <body>
 
-<!--nav-->
+  <!--nav-->
 
   <section class="nav">
     <div class="container">
@@ -72,7 +72,7 @@
                 <input type="text" class="form-control" id="inlineFormInput" placeholder="Enter your Zipcode">
               </div>
               <div class="col-auto">
-                <button type="submit" class="btn btn-primary btn-go">go</button>
+                <button type="button" class="btn btn-primary btn-go" id="first-thing" data-toggle="modal" data-target="#exampleModal">go</button>
               </div>
             </div>
           </form>
@@ -82,6 +82,98 @@
         </div>
       </div>
     </div>
+
+<!--modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Request a Quote</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+
+            <form>
+
+              <div class="form-group">
+                <label for="modalName">Your name</label>
+                <input type="text" id="modalName" class="form-control" placeholder="John Smith">
+              </div>
+
+              <div class="form-group">
+                <label for="modalEmail">Email</label>
+                <input type="email" id="modalEmail" class="form-control" placeholder="name@example.com">
+              </div>
+
+              <div class="form-group">
+                <label for="modalTel">Phone Number</label>
+                <input type="tel" id="modalTel" class="form-control" placeholder="Phone number">
+              </div>
+
+              <div class="form-group">
+                <label for="modalJunk">What kind of junk can we haul for you?</label>
+                <input type="text" id="modalJunk" class="form-control" placeholder="">
+              </div>
+
+
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="modalCity">City</label>
+                  <input type="text" id="modalCity" class="form-control" placeholder="">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="modalState">State</label>
+                  <input type="text" id="modalState" class="form-control" placeholder="">
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="modalZip">Zip</label>
+                  <input type="zip" id="modalZip" class="form-control" placeholder="">
+                </div>
+
+              </div>
+                <div class="form-group">
+                  <label>Junk Type</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Commercial
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                    Residential
+                  </label>
+                </div>
+
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="modalBudget">What's your budget?</label>
+                <input type="number" id="modalBudget" class="form-control" placeholder="$">
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Subscribe to newsletter
+                </label>
+
+              </form>
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
 <!--book now-->
@@ -279,5 +371,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
   </body>
 </html>
