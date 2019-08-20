@@ -72,7 +72,7 @@
                 <input type="text" class="form-control" id="inlineFormInput" placeholder="Enter your Zipcode">
               </div>
               <div class="col-auto">
-                <button type="button" class="btn btn-primary btn-go" id="first-thing" data-toggle="modal" data-target="#exampleModal">go</button>
+                <button type="button" class="btn btn-primary btn-go" id="new-thing" data-toggle="modal" data-target="#newModal">go</button>
               </div>
             </div>
           </form>
@@ -83,8 +83,8 @@
       </div>
     </div>
 
-<!--modal-->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!--first modal-->
+    <div class="modal fade" id="firstModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -128,11 +128,11 @@
                   <input type="text" id="modalState" class="form-control" placeholder="">
                 </div>
                 <div class="form-group col-md-2">
-                  <label for="modalZip">Zip</label>
-                  <input type="zip" id="modalZip" class="form-control" placeholder="">
+                  <label for="modalZip2">Zip</label>
+                  <input type="zip" id="modalZip2" class="form-control" placeholder="">
                 </div>
-
               </div>
+
                 <div class="form-group">
                   <label>Junk Type</label>
                 <div class="form-check">
@@ -176,6 +176,50 @@
 
   </div>
 
+  <!--new modal-->
+        <div class="modal fade" id="newModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Request a Quote</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+              <div class="modal-body">
+
+                <form>
+
+                  <div class="form-group">
+                    <label for="modalName">Your name</label>
+                    <input type="text" id="modalName" class="form-control" placeholder="John Smith">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="modalEmail">Email</label>
+                    <input type="email" id="modalEmail" class="form-control" placeholder="name@example.com">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="modalTel">Phone Number</label>
+                    <input type="tel" id="modalTel" class="form-control" placeholder="Phone number">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="modalBoom">Zipcode</label>
+                    <input type="text" id="modalBoom" class="form-control" placeholder="Zipcode">
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
 <!--book now-->
   <div class="container">
     <div class="row featurette mt-5 mb-5">
@@ -183,7 +227,7 @@
         <div class="book">
           <h1>Tampa Bay Area Junk Removal</h1>
           <p class="text1">Whether it's residential or commercial<br>we're happy to remove your trash so you don't have to!</p>
-          <button type="button" class="btn btn-primary btn-book">book now</button>
+          <button type="button" class="btn btn-primary btn-book" id="book-thing" data-toggle="modal" data-target="#firstModal">book now</button>
           <button type="button" class="btn btn-primary btn-items">items we remove</button>
         </div>
       </div>

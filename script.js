@@ -2,9 +2,10 @@ console.log("Hello!")
 
 $(document).ready(function() {
 
-  $('#first-thing').click(function() {
+  $('#new-thing').click(function() {
     zip = $('#inlineFormInput').val()
-    $('#modalZip').val(zip)
+    $('#modalBoom').val(zip)
+
   })
 
 })
