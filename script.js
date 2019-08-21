@@ -8,4 +8,8 @@ $(document).ready(function() {
 
   })
 
+  $('#sub-button').click(function() {
+    console.log("submitted");
+  })
+
 })
